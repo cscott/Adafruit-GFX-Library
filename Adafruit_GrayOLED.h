@@ -24,7 +24,7 @@
 #ifndef _Adafruit_GRAYOLED_H_
 #define _Adafruit_GRAYOLED_H_
 
-#if !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
+#if 0 && !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_I2CDevice.h>

@@ -15,7 +15,7 @@
  *
  */
 
-#if !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
+#if 0 && !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
 
 #include "Adafruit_GrayOLED.h"
 #include <Adafruit_GFX.h>

@@ -20,7 +20,7 @@
 #ifndef _ADAFRUIT_SPITFT_H_
 #define _ADAFRUIT_SPITFT_H_
 
-#if !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
+#if 0 && !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
 
 #include "Adafruit_GFX.h"
 #include <SPI.h>

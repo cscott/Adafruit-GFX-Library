@@ -31,7 +31,7 @@
  * BSD license, all text here must be included in any redistribution.
  */
 
-#if !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
+#if 0 && !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
 
 #include "Adafruit_SPITFT.h"
 
